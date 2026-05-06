@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Plugin PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Plugin name="MultiUserSearchPlugin"
+        displayName="Multi-User Comma Search"
+        version="1.0"
+        minSystemVersion="8.0"
+        maxSystemVersion="8.5"
+        certificationLevel="None">
+  <Attributes>
+    <Map>
+      <entry key="fullPage">
+        <value><List/></value>
+      </entry>
+      <entry key="snippets">
+        <value>
+          <List>
+            <String>ui/js/multi-user-search.js</String>
+            <String>ui/css/multi-user-search.css</String>
+          </List>
+        </value>
+      </entry>
+      <entry key="restResources">
+        <value>
+          <List>
+            <String>com.custom.plugin.MultiUserSearchResource</String>
+          </List>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+</Plugin>
